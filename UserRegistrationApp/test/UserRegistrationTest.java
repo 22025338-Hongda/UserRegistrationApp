@@ -12,7 +12,7 @@ public class UserRegistrationTest {
     }
 
     @Test
-    public void testInvalidEmail() {
+    public void testInvalidEmail() {//jhkhjh
         UserRegistration userRegistration = new UserRegistration();
         boolean result = userRegistration.registerUser("John Doe", 
         								"invalidemail", "password1234");
